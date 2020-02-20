@@ -1,6 +1,6 @@
 # gocheckenv
 
-Simple utility to check if certain environment variables exist. Returns len 0 slice of strings if valid or len N slice of strings that includes all missing env variables.
+Simple utility to check if certain environment variables exist. Returns len 0 slice of strings if valid or len N slice of strings that includes all missing env variable names.
 
 ## USAGE:
 
