@@ -4,7 +4,7 @@ import (
 	"os"
 )
 
-// CheckEnv looks for required environment variables and returns a slide of strings that includes all missing variables. Len 0 slice means
+// CheckEnv looks for required environment variables and returns a slice of strings that includes all missing variables. Len 0 slice means
 // no variables are missing.
 func CheckEnv(vars []string) []string {
 	missing := []string{}
